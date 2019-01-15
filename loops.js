@@ -5,7 +5,12 @@ function forLoop(array) {
     }
     else {
       console.log(`I am a ${i} strange loops.`);
-
     }
+  }
+}
+
+function whileLoop(number) {
+  while (number > 0 ) {
+    console.log(number--);
   }
 }
